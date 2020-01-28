@@ -1,5 +1,7 @@
 package irobot_stuff;
 
+import org.springframework.stereotype.Component;
+
 import javax.swing.*;
 
 /**

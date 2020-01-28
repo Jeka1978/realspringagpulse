@@ -1,6 +1,7 @@
 package irobot_stuff;
 
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
@@ -8,6 +9,7 @@ import javax.annotation.PostConstruct;
  * @author Evgeny Borisov
  */
 
+@Component
 public final class CleanerImpl implements Cleaner {
     @InjectRandomInt(min = 3,max = 6)
     @Setter
